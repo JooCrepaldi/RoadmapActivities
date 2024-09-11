@@ -1,2 +1,2 @@
 # RoadmapActivities
-Activities from Roadmap that i did for practice frontend developent.
+Activities from Roadmap that i did to practice frontend developent.
