@@ -130,7 +130,7 @@ main {
 
 .Reviews{
     margin-top: 20px;
-    background-color: rgb(91, 99, 83);
+    
 }
 
 
@@ -138,12 +138,12 @@ main {
 /* review */
 .Reviews{
     display: flex;
-    flex-direction: row  ;
-    
+    flex-direction: row;
 }
 
 .review1{
-    border: 5px solid #000;
+    border: 2px solid #000;
+    border-radius: 10px;
     width: 200px;    
 }
 
