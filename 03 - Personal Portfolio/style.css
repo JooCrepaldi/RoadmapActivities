@@ -74,18 +74,32 @@ nav {
     text-align: center;
 }
 
-section{
-    border: 10px solid #F9CC0B;
-}
-
 /* main */
 main{
+    background-color: rgb(61, 90, 124);
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    flex-direction: column;
 }
 
-.Projects{
-    width: 300px;
+.WorkExperience{
+    float: right;
+    
+}
+
+/* reviews */
+.Reviews{
+    display: flex;
+    flex-direction: column  ;
+}
+
+.review1{
+    border: 5px solid #000;
+}
+
+.review2{
+    border: 5px solid #000;
+}
+
+.review3{
+    border: 5px solid #000;
 }
