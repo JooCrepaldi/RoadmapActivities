@@ -76,4 +76,5 @@ nav {
 
 main {
     background-color: rgb(62, 93, 128);
+    display: flex;
 }
