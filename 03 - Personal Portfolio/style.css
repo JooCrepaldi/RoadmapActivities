@@ -91,6 +91,7 @@ main {
     border-radius: 10px;
     background-color: rgb(62, 93, 128);
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .Education{
@@ -98,20 +99,29 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 
 .Reviews{
-    background-color: #1a2d49;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-
-
 
 .re{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;    
-    margin-top: 25px;
+    align-items: center;
+    gap: 50px;
+}
+
+.review1, .review2, .review3{
+    width: 400px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: rgb(62, 93, 128);
+    margin-top: 50px;
 }
