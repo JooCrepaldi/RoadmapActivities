@@ -37,12 +37,14 @@ b {
 
 nav {
     display: flex;
-    background-color: #1a2d49;
-    width: 50%;
-    border-radius: 10px;
+    width: 100%;
     align-items: center;
 
-    margin-top: 10px;
+    /* From https://css.glass */
+    background: rgba(15, 40, 75, 0.456);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    border: 1px solid#f9f9f92a;
 }
 
 .logo img {
@@ -79,7 +81,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 47.16px;
 }
 
 /* main */
@@ -91,17 +93,24 @@ main {
     padding-left: 20px;
     padding-right: 20px;
     gap: 10px;
+    margin-top: 50px;
 }
 
 .Projects,
 .WorkExperience,
 .OpenSourceWork {
     width: 400px;
-    border: 2px solid #000;
+    border: 1px solid#f9f9f92a;
     border-radius: 10px;
     background-color: rgb(62, 93, 128);
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.WorkExperience a, .OpenSourceWork a{
+    background-color: #F9CC0B;
+    text-decoration: none;
+    border-radius: 50px;
 }
 
 .Education {
