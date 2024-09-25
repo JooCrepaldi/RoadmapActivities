@@ -118,13 +118,39 @@ main {
 }
 
 /* botões dos links */
-.WorkExperience a,
-.OpenSourceWork a {
-    background-color: #F9CC0B;
-    text-decoration: none;
+.buttom1{
+    background-color:#0C1D36;
+    padding: 20px 20px 20px 20px;
     border-radius: 50px;
 }
 
+.buttom2{
+    background-color:#0C1D36;
+    padding: 20px 20px 20px 20px;
+    border-radius: 50px;
+}
+
+.buttom1, .buttom2 :hover{
+    background-color: #F9CC0B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EDUCATION */
 .Education {
     display: flex;
     flex-direction: column;
@@ -149,7 +175,8 @@ main {
     gap: 50px;
 }
 
-.ReviewsMain p,
+
+.ReviewsMain p,/*concertar!!!!!*/
 .ReviewsMain i {
     padding-top: 20px;
     padding-left: 20px;
@@ -167,6 +194,7 @@ main {
     margin-top: 50px;
 }
 
+/* FOOTER */
 footer {
     background-color: #1a2d49;
     height: 100px;
