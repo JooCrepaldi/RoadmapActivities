@@ -122,27 +122,20 @@ main {
     background-color:#0C1D36;
     padding: 20px 20px 20px 20px;
     border-radius: 50px;
+    text-decoration: none;
+    color: #F9F9F9;
+    transition: all 0.3s;
 }
 
 .buttom1 :hover, .buttom2 :hover{
-    background-color: #F9CC0B;
+    background-color:#F9CC0B;
+    color: #000;
+    transition: all 0.3s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.buttom1{
+    padding-top: 50px;
+}
 
 /* EDUCATION */
 .Education {
