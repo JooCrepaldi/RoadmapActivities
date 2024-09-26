@@ -118,19 +118,13 @@ main {
 }
 
 /* botões dos links */
-.buttom1{
+.buttom1 a, .buttom2 a{
     background-color:#0C1D36;
     padding: 20px 20px 20px 20px;
     border-radius: 50px;
 }
 
-.buttom2{
-    background-color:#0C1D36;
-    padding: 20px 20px 20px 20px;
-    border-radius: 50px;
-}
-
-.buttom1, .buttom2 :hover{
+.buttom1 :hover, .buttom2 :hover{
     background-color: #F9CC0B;
 }
 
