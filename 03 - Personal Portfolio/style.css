@@ -5,11 +5,21 @@
     outline: none;
 }
 
+:root{
+    --basecolor: #f1f1f1;
+    --basevariant: #afafaf;
+    --textcolor: #000;
+    --secondtextcolor: #fff;
+    --titles: #3b3b3b;
+    --colorimpact: #3f6ef9;
+    --hover: #2d50ba;
+}
+
 /* ESTILO GLOBAL */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #0C1D36;
-    color: #F9F9F9;
+    background-color: var(--basecolor);
+    color: var(--textcolor);
 }
 
 ul {
@@ -23,7 +33,7 @@ h3,
 b {
     font-family: Poppins;
     margin-bottom: 10px;
-    color: #F9CC0B;
+    color: var(--titles);
 }
 
 /* NAV */
@@ -41,17 +51,15 @@ nav {
     align-items: center;
 
     /* From https://css.glass */
-    background: rgba(15, 40, 75, 0.456);
+    background: rgba(133, 133, 133, 0.456);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(20px);
     border: 1px solid#f9f9f92a;
 }
 
-.logo img {
-    width: 85px;
-    height: auto;
-    margin-top: 5px;
-    margin-left: 30px;
+.logo{
+    font-family: "Rubik";
+    margin-left: 40px;
 }
 
 .menu {
@@ -69,12 +77,12 @@ nav {
 }
 
 .menu a:hover {
-    color: #F9CC0B;
+    color: var(--colorimpact)
 }
 
 /* BANNER */
 .Banner {
-    background-color: #1a2d49;
+    background-color: var(--basecolor);
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -102,7 +110,7 @@ main {
     width: 400px;
     border: 1px solid#f9f9f92a;
     border-radius: 10px;
-    background-color: rgb(62, 93, 128);
+    background-color: var(--basevariant);
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -119,17 +127,17 @@ main {
 
 /* botões dos links */
 .buttom1 a, .buttom2 a{
-    background-color:#0C1D36;
+    background-color:var(--colorimpact);
     padding: 20px 20px 20px 20px;
     border-radius: 50px;
     text-decoration: none;
-    color: #F9F9F9;
+    color: var(--secondtextcolor);
     transition: all 0.3s;
 }
 
 .buttom1 :hover, .buttom2 :hover{
-    background-color:#F9CC0B;
-    color: #000;
+    background-color: var(--hover);
+    color: var(--secondtextcolor);
     transition: all 0.3s;
 }
 
@@ -177,12 +185,12 @@ main {
     width: 400px;
     border: 1px solid#f9f9f92a;
     border-radius: 10px;
-    background-color: rgb(62, 93, 128);
+    background-color: var(--basevariant);
     margin-top: 50px;
 }
 
 /* FOOTER */
 footer {
-    background-color: #1a2d49;
+    background-color: var(--basevariant);
     height: 100px;
 }
