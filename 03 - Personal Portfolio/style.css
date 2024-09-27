@@ -5,7 +5,7 @@
     outline: none;
 }
 
-:root{
+:root {
     --basecolor: #f1f1f1;
     --basevariant: #afafaf;
     --textcolor: #000;
@@ -57,7 +57,7 @@ nav {
     border: 1px solid#f9f9f92a;
 }
 
-.logo{
+.logo {
     font-family: "Rubik";
     margin-left: 40px;
 }
@@ -115,6 +115,35 @@ main {
     margin-bottom: 50px;
 }
 
+/* PROJECTS */
+.projeto1,
+.projeto2 {
+    width: 800px;
+    border: 1px solid#f9f9f92a;
+    border-radius: 10px;
+    background-color: var(--basevariant);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px 20px 20px 20px;
+}
+
+.projmain{
+    justify-content: center;
+}
+
+/* ARTICLES */
+.artigo1,
+.artigo2,
+.artigo3{
+    width: 800px;
+    border: 1px solid#f9f9f92a;
+    border-radius: 10px;
+    background-color: var(--basevariant);
+    margin-top: 50px;
+    margin-bottom: 320px;
+    padding: 20px 20px 20px 20px;
+}
+
 /*arrumando o padding */
 .Projects,
 .WorkExperience,
@@ -126,8 +155,9 @@ main {
 }
 
 /* botões dos links */
-.buttom1 a, .buttom2 a{
-    background-color:var(--colorimpact);
+.buttom1 a,
+.buttom2 a {
+    background-color: var(--colorimpact);
     padding: 20px 20px 20px 20px;
     border-radius: 50px;
     text-decoration: none;
@@ -135,13 +165,14 @@ main {
     transition: all 0.3s;
 }
 
-.buttom1 :hover, .buttom2 :hover{
+.buttom1 :hover,
+.buttom2 :hover {
     background-color: var(--hover);
     color: var(--secondtextcolor);
     transition: all 0.3s;
 }
 
-.buttom1{
+.buttom1 {
     padding-top: 50px;
 }
 
@@ -170,15 +201,6 @@ main {
     gap: 50px;
 }
 
-
-.ReviewsMain p,/*concertar!!!!!*/
-.ReviewsMain i {
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-}
-
 .review1,
 .review2,
 .review3 {
@@ -187,10 +209,52 @@ main {
     border-radius: 10px;
     background-color: var(--basevariant);
     margin-top: 50px;
+    padding: 20px 20px 20px 20px;
+}
+
+/* CONTACT */
+.contact{
+    background-color: var(--basevariant);
+    height: 400px;
+    width: 200px;
+    display: flex;
+    justify-content:flex-start;
+    border-radius: 10px;
+    margin-bottom: 140px;
+}
+
+.contact div{
+    color: var(--secondtextcolor);
+    font-family: "Poppins";
+    margin-top: 15px;
+}
+
+.contact input,
+.contact textarea{
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.contact oi{
+    display: flex;
+    justify-content: center;
+}
+
+.contact button{
+    background-color: var(--colorimpact);
+    color: var(--secondtextcolor);
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+}
+
+.contact button :hover{
+    background-color: var(--hover);
 }
 
 /* FOOTER */
 footer {
     background-color: var(--basevariant);
-    height: 100px;
+    height: 160px;
 }
