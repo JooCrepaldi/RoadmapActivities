@@ -15,6 +15,16 @@
     --hover: #2d50ba;
 }
 
+.darkmode{
+    --basecolor: #171717;
+    --basevariant: #2e2e2e;
+    --textcolor: #fff;
+    --secondtextcolor: #e9e9e9;
+    --titles: #ffffff;
+    --colorimpact: #3f6ef9;
+    --hover: #2d50ba;
+}
+
 /* ESTILO GLOBAL */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -246,11 +256,13 @@ main {
     border-radius: 50px;
     width: 150px;
     height: 40px;
+
+    &:hover{
+        background-color: var(--hover);
+        transition: all 0.3;     
+    }
 }
 
-.contact button :hover{
-    background-color: var(--hover);
-}
 
 /* FOOTER */
 footer {
