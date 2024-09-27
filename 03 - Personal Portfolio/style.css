@@ -173,7 +173,11 @@ main {
 }
 
 .buttom1 {
-    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.buttom2{
+    margin-top: 20px;
 }
 
 /* EDUCATION */
