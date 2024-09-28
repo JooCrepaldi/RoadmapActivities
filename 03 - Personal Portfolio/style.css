@@ -77,7 +77,7 @@ b {
 }
 
 button#trocatema svg {
-    pointer-events: none; /* Isso permite que o clique passe pelo SVG e ative o botão */
+    pointer-events: none;
 }
 
 /* NAV */
