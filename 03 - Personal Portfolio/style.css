@@ -46,6 +46,40 @@ b {
     color: var(--titles);
 }
 
+/* Troca de tema */
+#trocatema{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    padding: 0;
+    background-color: var(--basecolor);
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#trocatema svg{
+    fill: var(--titles);
+}
+
+#trocatema svg:last-child{
+    display: none;
+}
+
+.darkmode #trocatema svg:first-child{
+    display: none;
+}
+
+.darkmode #trocatema svg:last-child{
+    display: block;
+}
+
+button#trocatema svg {
+    pointer-events: none; /* Isso permite que o clique passe pelo SVG e ative o botão */
+}
+
 /* NAV */
 .bar {
     display: flex;
