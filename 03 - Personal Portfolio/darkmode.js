@@ -18,11 +18,11 @@ if(darkmode === "active"){
 trocatema.addEventListener("click", () => {
     darkmode = localStorage.getItem("darkmode")
     
-    if(darkmode !== "active"){
-        ligadodarkmode()
+    if(darkmode === "active"){
+        desligadodarkmode()
     }
     
     else {
-        desligadodarkmode()
+        ligadodarkmode()
     }
 })
